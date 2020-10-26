@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ivMusic = (ImageView) findViewById(R.id.ivMusic);
-        tvMusicName = (TextView) findViewById(R.id.tvMusicName);
         Glide.with(this).load("https://img.youtube.com/vi/tc-bxi26GSA/0.jpg").into(ivMusic);
 
         mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.talarica);
